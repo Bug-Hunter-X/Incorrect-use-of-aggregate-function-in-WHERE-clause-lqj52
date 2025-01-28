@@ -1,0 +1,2 @@
+# SQL Aggregate Function Error
+This example demonstrates a common error in SQL queries involving the incorrect use of aggregate functions within the WHERE clause.  The provided query attempts to filter employees based on whether their salary is above the average salary, but the aggregate function AVG() is not properly used in this context. This results in a syntax error in many database systems.
